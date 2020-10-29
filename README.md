@@ -14,7 +14,6 @@ html = """html code here"""
 p = HTMLTableParser()
 p.feed(html)
 pprint(p.tables)
-pprint(p.each_leaf_table())
 ```
 
 ## Description
